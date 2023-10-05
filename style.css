@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -19,15 +21,26 @@ header {
 .intro-title {
     color: #FFFFFF;
     margin-top: 317px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 5.7px;
 }
 
 .intro-subtitle {
     color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
 }
 
 .scroll {
     color: #FFFFFF;
     margin-top: 221px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3.7px;
 }
 
 
@@ -58,6 +71,8 @@ header {
 
 #blue-list-navbar-item {
     color: #00A4E5;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-items  li {
@@ -69,5 +84,99 @@ header {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.091px;
+    font-family: 'Open Sans', sans-serif;
+}
 
+
+
+
+
+
+
+
+
+
+
+.container {
+    margin: 0 333px;
+    
+}
+
+
+.main-title {
+    color: #48555B;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.306px;
+}
+
+.main-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.main-description-images img {
+   margin-right: 30px;
+   width: 200px;
+   max-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-capabilities {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capabilities-button {
+    text-align: center;
+    width: 150px;
+    padding: 15px 38px;
+    max-height: 53px;
+    background: #00A4E5;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.capabilities-blocks {
+    margin-top: 114px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 30px;
+}
+
+.capabilities-block {
+    width: 350px;
+    height: 330px;
+    border: 1px solid #E6E6E6;
+    background: #fff;
 }
